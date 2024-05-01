@@ -19,11 +19,14 @@ In this project, I created responsive navbar. It is simple but usefull project. 
 nanoid is a small JavaScript library used to generate unique, URL-friendly IDs. It's designed to be lightweight, fast, and secure. Nanoid generates random IDs that are highly unlikely to collide, even in distributed systems or when generating a large number of IDs.
 
 ## Addition
-const linksStyles = {
+
+ const linksStyles = {
   height: showLinks
     ? `${linksRef.current.getBoundingClientRect().height}px`
     : '0px',
 };
+
+
 linksStyles: This is an object that holds CSS styles for an element.
 height: This property defines the height of the element.
 showLinks: This seems to be a boolean variable that determines whether to show the links. If showLinks is true, the height will be set to the height of the element referenced by linksRef. If showLinks is false, the height will be set to '0px', effectively hiding the element.
